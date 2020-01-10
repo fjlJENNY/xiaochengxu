@@ -1,0 +1,44 @@
+/**app.wxss**/
+
+@import '/asset/css/icon.wxss';
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 64px;
+}
+
+.nav-bar-IPX {
+    height: 88px;
+}
+
+
+.feed-bottom-IPX{
+	/* 兼容 ipx */
+	padding-bottom:34px;
+}
+
+
+.common-button-wrap{
+	width: 610rpx;
+	margin:0 auto;
+}
+
+.common-button-wrap>button{
+	width:100%;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 36rpx;
+	text-align: center;
+}
+
+
+
+

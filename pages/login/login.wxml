@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+<view class="login-wrap container">
+    <view class="login-bg">
+        <image src="../../static/image/login/login-bg.png" mode="aspectFill" ></image>
+    </view>
+    <!-- <form> -->
+        <view class="form-item form-input">
+            <text class="edu-icon icon-user"></text>
+            <input type="text" name="user" placeholder="请输入登录账号"/>
+        </view>
+        <view class="form-item form-input">
+            <text class="edu-icon icon-password"></text>
+            <input type="text" name="password" placeholder="请输入密码"/>
+        </view>
+        <view class="form-item common-button-wrap">
+            <button >登录</button>
+        </view>
+        <view>
+            <text>登录即代表你同意</text><navigator url="/pages/index/index">用户服务协议</navigator>
+        </view>
+    <!-- </form> -->
+</view>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1607237 */
+  src: url('//at.alicdn.com/t/font_1607237_yce46udoy6a.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1607237_yce46udoy6a.svg#iconfont') format('svg');
+}
+
+.edu-icon{
+    font-family: iconfont;
+    font-size: 30rpx;
+}
+
+
+.icon-user::before{
+    content: '\e613';
+}
+
+.icon-password::before{
+    content: '\e658';
+}
